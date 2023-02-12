@@ -1,0 +1,21 @@
+{
+    "version": "v1",
+    "name": "test_invalid_board.json",
+    "assert": false,
+    "board":    [[1, 2, 3, 4],
+                [4, 3, 2, 1],
+                [2, 1, 4, 3],
+                [3, 4, 1, 2, 5]],
+    "rules": [
+        {
+            "cell": [2, 1],
+            "constraints": {
+                "up": true,
+                "down": false,
+                "left": false,
+                "right": false,
+                "operator": "lt"
+            }
+        }
+    ]
+}

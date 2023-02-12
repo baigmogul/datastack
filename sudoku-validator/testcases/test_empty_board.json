@@ -1,0 +1,18 @@
+{
+    "version": "v1",
+    "name": "test_empty_board.json",
+    "assert": false,
+    "board":  [],
+    "rules": [
+        {
+            "cell": [2, 1],
+            "constraints": {
+                "up": true,
+                "down": false,
+                "left": false,
+                "right": false,
+                "operator": "lt"
+            }
+        }
+    ]
+}

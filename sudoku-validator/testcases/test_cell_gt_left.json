@@ -1,0 +1,21 @@
+{
+    "version": "v1",
+    "name": "test_cell_gt_left.json",
+    "assert": false,
+    "board": [[1, 2, 3, 4],
+            [4, 3, 2, 1],
+            [2, 1, 4, 3],
+            [3, 4, 1, 2]],
+    "rules": [
+        {
+            "cell": [3, 2],
+            "constraints": {
+                "up": false,
+                "down": false,
+                "left": true,
+                "right": false,
+                "operator": "gt"
+            }
+        }
+    ]
+}

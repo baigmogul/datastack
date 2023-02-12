@@ -1,0 +1,35 @@
+{
+    "version": "v1",
+    "rules": [
+        {
+            "cell": [1, 1],
+            "constraints": {
+                "up": false,
+                "down": false,
+                "left": false,
+                "right": true,
+                "operator": "gt"
+            }
+        }, 
+        {
+            "cell": [2, 3],
+            "constraints": {
+                "up": false,
+                "down": true,
+                "left": false,
+                "right": false,
+                "operator": "gt"
+            }
+        }, 
+        {
+            "cell": [2, 1],
+            "constraints": {
+                "up": true,
+                "down": false,
+                "left": false,
+                "right": false,
+                "operator": "gt"
+            }
+        }
+    ]
+}
